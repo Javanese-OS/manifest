@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="magnus"
-           fetch="https://github.com/Magnus-OS"
+  <remote  name="javanese"
+           fetch="https://github.com/Javanese-OS"
            revision="11" />
            
   <remote  name="gitlab"
