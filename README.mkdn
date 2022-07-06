@@ -31,12 +31,12 @@ To get started with Android/Javanese-OS, you'll need to get familiar with [Sourc
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```
-repo init --depth=1 -u https://github.com/Javanese-OS/android.git -b 11
+repo init -u https://github.com/Javanese-OS/android.git -b 11
 ```
 
 Then to sync up:
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 <hr>
 
@@ -49,6 +49,6 @@ You can use your Lineage OS trees to build Magnus without any changes.
 ```bash 
   . build/envsetup.sh
   lunch javanese_<devicecodename>-userdebug
-  mka bacon -jx
+  mka java -jx
 ```
 <hr> 
