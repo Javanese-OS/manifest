@@ -56,8 +56,8 @@
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="javanese" />
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="javanese" />
-  <project path="packages/apps/Settings/MagnusSettings" name="packages_apps_MagnusArea" groups="pdk-fs" remote="javanese" />
-  <project path="packages/apps/MagnusWidget" name="packages_apps_MagnusWidget" groups="pdk-fs" remote="javanese" />
+  <project path="packages/apps/Settings/JavaneseSettings" name="packages_apps_JavaneseArea" groups="pdk-fs" remote="javanese" />
+  <project path="packages/apps/JavaneseWidget" name="packages_apps_JavaneseWidget" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="javanese" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="javanese" />
