@@ -48,7 +48,7 @@ You can use your Lineage OS trees to build Magnus without any changes.
 
 ```bash 
   . build/envsetup.sh
-  lunch lineage_<devicecodename>-userdebug
+  lunch javanese_<devicecodename>-userdebug
   mka bacon -jx
 ```
 <hr> 
