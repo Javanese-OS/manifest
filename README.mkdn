@@ -1,12 +1,12 @@
 <hr>
 <div align="center">
-<a href="https://github.com/Magnus-OS">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
+<a href="https://github.com/Javanese-OS">
+<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Javanese OS"> 
 </a>
 <hr>
 
 <a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
+<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
 </a>
 
 [**ProjectSakura**](https://github.com/ProjectSakura)
@@ -26,16 +26,12 @@
 [**ExtendedUI**](https://github.com/Extended-UI) 
 <hr>
 
-<a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/gettingstarted.png?raw=true" alt="Getting-Started">
-</a>
-
-To get started with Android/Magnus-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with Android/Javanese-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 <br>
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```
-repo init --depth=1 -u https://github.com/Magnus-OS/android.git -b 11
+repo init --depth=1 -u https://github.com/Javanese-OS/android.git -b 11
 ```
 
 Then to sync up:
@@ -45,7 +41,7 @@ repo sync
 <hr>
 
 <a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
+<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
 </a>
 <br>
 You can use your Lineage OS trees to build Magnus without any changes. 
