@@ -72,7 +72,7 @@
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="javanese"/>  
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="javanese" /> 
   <project path="vendor/addons" name="vendor_addons" remote="javanese" />
-  <project path="vendor/lineage" name="vendor_javanese" remote="javanese" />   
+  <project path="vendor/javanese" name="vendor_javanese" remote="javanese" />   
   <!-- <project path="vendor/gapps" name="ReveRTX/android_vendor_gapps" remote="gitlab" revision="11" clone-depth="1" /> -->
 
   <!-- Clang Proton -->
