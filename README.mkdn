@@ -1,10 +1,9 @@
 # Javanese OS #
-<hr>
 <div align="center">
 <a href="https://github.com/Javanese-OS">
 <img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Javanese OS"> 
 </a>
-<hr>
+</p>
 
 ### Sync ###
 
