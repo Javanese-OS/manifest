@@ -24,6 +24,8 @@
 [**Superior OS**](https://github.com/SuperiorOS)
 <br>
 [**ExtendedUI**](https://github.com/Extended-UI) 
+<br>
+[**MagnusOS**](https://github.com/Magnus-OS) 
 <hr>
 
 To get started with Android/Javanese-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
@@ -50,6 +52,6 @@ You can use your Lineage OS trees to build Magnus without any changes.
 ```bash 
   . build/envsetup.sh
   lunch javanese_<devicecodename>-userdebug
-  mka java -jx
+  make java -jx
 ```
 <hr> 
