@@ -33,7 +33,7 @@ To get started with Android/Javanese-OS, you'll need to get familiar with [Sourc
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```
-repo init --depth=1 -u https://github.com/Javanese-OS/android.git -b 11
+repo init --depth=1 -u https://github.com/Javanese-OS/manifest.git -b 11
 
 ```
 
@@ -47,7 +47,7 @@ repo sync
 <img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
 </a>
 <br>
-You can use your Lineage OS trees to build Magnus without any changes. 
+You can use your Lineage OS trees to build Javanese without any changes. 
 
 ```bash 
   . build/envsetup.sh
