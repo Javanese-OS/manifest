@@ -1,57 +1,48 @@
-<hr>
-<div align="center">
-<a href="https://github.com/Javanese-OS">
-<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Javanese OS"> 
-</a>
-<hr>
+# Javanese OS #
+<p align="center">
+<a href="https://imgur.com/8RoBGQS"><img src="https://i.imgur.com/8RoBGQS.png" title="Banner"/></a>
+</p>
 
-<a href="">
-<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
-</a>
+### Sync ###
 
-[**ProjectSakura**](https://github.com/ProjectSakura)
-<br>
-[**AOSP**](https://android.googlesource.com)
-<br>
-[**LineageOS**](https://github.com/LineageOS)
-<br>
-[**CrDroid**](https://github.com/crdroidandroid)
-<br>
-[**AOSiP**](https://github.com/AOSiP)
-<br>
-[**DerpFest**](https://github.com/DerpLab)
-<br>
-[**Superior OS**](https://github.com/SuperiorOS)
-<br>
-[**ExtendedUI**](https://github.com/Extended-UI) 
-<br>
-[**MagnusOS**](https://github.com/Magnus-OS) 
-<hr>
+```bash
 
-To get started with Android/Javanese-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-<br>
-To initialize your local repository using the LineageOS trees, use a command like this:
+# Initialize local repository
+repo init -u https://github.com/Javanese-OS/manifest -b 11
 
-```
-repo init --depth=1 -u https://github.com/Javanese-OS/manifest.git -b 11
-
+# Sync
+repo sync
 ```
 
-Then to sync up:
-```
-repo sync 
-```
-<hr>
+### Build ###
 
-<a href="">
-<img src="https://github.com/Javanese-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
-</a>
-<br>
-You can use your Lineage OS trees to build Javanese without any changes. 
+```bash
 
-```bash 
-  . build/envsetup.sh
-  lunch javanese_<devicecodename>-userdebug
-  make java -jx
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch javanese_$device-userdebug
+
+# Build the code
+$ make java -jX
 ```
-<hr> 
+
+### Developer ###
+
+- [Become maintainer for your device SOON]
+
+---------------------------------------------------------------------------------------
+ Credits:
+ =======
+
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**AOSiP**](https://github.com/AOSiP)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**POSP**](https://github.com/PotatoProject)
+ * [**Nusantara**](https://github.com/Nusantara-ROM)
+ * [**LegionOS**](https://github.com/Project-LegionOS)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**BiancaProject**](https://github.com/BiancaProject)
+
+---------------------------------------------------------------------------------------
