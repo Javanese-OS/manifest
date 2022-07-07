@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- JavaneseOS Additions -->
-  <project path="android" name="android" remote="javanese" />
+  <project path="android" name="manifest" remote="javanese" />
   <project path="art" name="art" groups="pdk" remote="javanese" />  
   <project path="bionic" name="android_bionic" groups="pdk" remote="javanese" />  
   <project path="build/make" name="build_make" groups="pdk" remote="javanese" >
