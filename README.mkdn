@@ -10,10 +10,10 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Javanese-OS/manifest.git -b 11
+repo init -u https://github.com/GonzagaOS/manifest.git -b 12
 
 # Sync
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
@@ -29,11 +29,6 @@ $ lunch javanese_$device-userdebug
 # Build the code
 $ make java -jX
 ```
-
-### Developer ###
-
-- [Become maintainer for your device SOON]
-
 ---------------------------------------------------------------------------------------
  Credits:
  =======
