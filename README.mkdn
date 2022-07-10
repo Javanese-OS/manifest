@@ -29,11 +29,6 @@ $ lunch javanese_$device-userdebug
 # Build the code
 $ make java -jX
 ```
-
-### Developer ###
-
-- [Become maintainer for your device SOON]
-
 ---------------------------------------------------------------------------------------
  Credits:
  =======
