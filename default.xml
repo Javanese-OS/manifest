@@ -5,6 +5,10 @@
            fetch="https://github.com/Magnus-OS"
            revision="12.1" />
 
+  <remote  name="javanese"
+           fetch="https://github.com/Javanese-OS"
+           revision="12" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
@@ -25,7 +29,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <!-- Magnus OS Additions -->
+  <!-- Javanese OS Additions -->
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.sh" dest="tools/bazel" />
