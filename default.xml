@@ -3,7 +3,6 @@
 
   <remote  name="javanese"
            fetch="https://github.com/Javanese-OS"
-           revision="11" />
    
   <remote  name="magnus"
            fetch="https://github.com/Magnus-OS"
@@ -19,15 +18,13 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="aosp"
+    <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r46" />
+           revision="refs/tags/android-11.0.0_r43" />
 
   <default revision="refs/heads/lineage-18.1"
            remote="github"
-           sync-c="true"
-           sync-j="4" />
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
