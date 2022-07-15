@@ -27,19 +27,15 @@ $ . build/envsetup.sh
 $ lunch javanese_$device-userdebug
 
 # Build the code
-$ make java -jX
+$ mka bacon
 ```
 ---------------------------------------------------------------------------------------
  Credits:
  =======
 
  * [**LineageOS**](https://github.com/LineageOS)
- * [**AOSiP**](https://github.com/AOSiP)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**POSP**](https://github.com/PotatoProject)
  * [**MagnusOS**](https://github.com/Magnus-OS)
  * [**Project Sakura**](https://github.com/Project-Sakura)
- * [**ArrowOS**](https://github.com/ArrowOS)
- * [**BiancaProject**](https://github.com/BiancaProject)
-
 ---------------------------------------------------------------------------------------
