@@ -3,7 +3,8 @@
 
   <remote  name="javanese"
            fetch="https://github.com/Javanese-OS"
-   
+           revision="11" />
+
   <remote  name="magnus"
            fetch="https://github.com/Magnus-OS"
            revision="11" />
