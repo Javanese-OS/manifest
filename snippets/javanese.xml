@@ -5,7 +5,7 @@
   <project path="android" name="manifest" remote="javanese" />
   <project path="art" name="art" groups="pdk" remote="javanese" />  
   <project path="bionic" name="android_bionic" groups="pdk" remote="javanese" />  
-  <project path="build/make" name="build_make" groups="pdk" remote="magnus" >
+  <project path="build/make" name="android_build" groups="pdk" remote="javanese" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,7 +14,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="magnus" >
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="javanese" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -37,11 +37,10 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="magnus" revision="lineage-18.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="magnus" revision="lineage-18.1-caf-sm8150" />  
   <!--Qcom-caf repos end -->
-  <project path="lineage-sdk" name="lineage-sdk" remote="magnus" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="javanese" />
   <!-- Javanese Specific Repos -->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="javanese" />
-  <project path="packages/apps/Eleven" name="packages_apps_MusicPlayer" remote="javanese" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_Files" groups="pdk-cw-fs,pdk-fs" remote="javanese" />
@@ -61,7 +60,6 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="javanese" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="javanese" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="javanese" />
-  <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="javanese" /> -->
   <!-- END -->
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="javanese" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="javanese" />
