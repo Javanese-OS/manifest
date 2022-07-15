@@ -26,6 +26,8 @@
 
   <default revision="refs/heads/lineage-18.1"
            remote="github"
+           sync-c="true"
+           sync-j="32" />
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
